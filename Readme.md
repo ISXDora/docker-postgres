@@ -20,7 +20,13 @@ Esse projeto executa um container docker com uma imagem do postgresql.
 
 ### Para executar o container, utilize o seguinte comando no terminal
 
-``` start.sh ```
+Sistemas unix
+
+``` ./start.sh ```
+
+Sistema Windows
+
+``` bash ./start.sh```
 
 ### Para interromper a execução do container, execute o seguinte comando no terminal
 
