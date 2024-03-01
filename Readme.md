@@ -1,30 +1,41 @@
-# Container Postgres 
+## Container Postgres 
 
-## Descrição 
+### Descrição 
 
-Esse projeto executa um container docker com uma imagem do postgreSQL.
+Esse projeto executa um container docker com uma imagem do postgresql.
 
-## Para clonar o projeto em sua máquina local
+### Para clonar o projeto em sua máquina local
 
-``` ```
+**Via ssh:**
 
-## Para executar o container rodar o comando no terminal
+```git clone git@github.com:ISXDora/docker-postgres.git```
 
-Vocẽ deve estar no diretório onde o projeto foi clonado
+**Via https:**
+
+```https://github.com/ISXDora/docker-postgres.git```
+
+### Após clonar o projeto, acessar o diretório
+
+```cd docker-postgres```
+
+### Para executar o container, utilize o seguinte comando no terminal
 
 ``` start.sh ```
 
-## Para parar a execução do container
+### Para interromper a execução do container, execute o seguinte comando no terminal
 
 ``` docker container stop container-postgres ```
 
-## Para remover o container
+### Para remover o container
 
 ``` docker container rm container-postgres ```
 
-## Para acessar o banco de dados em gerenciadores de banco de dados 
+### Para acessar o banco de dados em gerenciadores de banco de dados 
 
-UserDB: docker_usr
-DBName: curso_docker
-PasswordDB: docker_pwd
+
+UserDB: `docker_usr`
+
+DBName: `curso_docker`
+
+PasswordDB: `docker_pwd`
 
