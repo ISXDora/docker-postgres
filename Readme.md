@@ -36,7 +36,7 @@ Sistema Windows
 
 ``` docker container rm container-postgres ```
 
-### Para acessar o banco de dados em gerenciadores de banco de dados 
+### Para acessar o banco de dados em softwares administradores de banco de dados 
 
 
 UserDB: `docker_usr`
